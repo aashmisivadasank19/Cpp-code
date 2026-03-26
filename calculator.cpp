@@ -32,7 +32,7 @@ result = num1%num2;
 }
 void display Data()
 {
-cout <<< Result: " << result;
+cout <<< Result: " << result;"
 }
 };
 
@@ -42,7 +42,7 @@ clrscr();
 
 int op;
 
-calculatorc = new calculator();
+calculator c = new calculator();
 c.get Data();
 
 cout << "1. Add\n2. Sub\n 3.Mult\n 4.Div\n5. Mod\n Select: ";
@@ -57,21 +57,21 @@ break;
 
 case 2:
 c.subtract ();
-c. display Data();
+c.display Data();
 break;
 
 case 3:
-c. Multiply ();
-c display Data ();
+c.multiply ();
+c.display Data ();
 break;
 
 case 4:
-c. Divide();
+c.divide();
 c.display Data();
 break
 
 case 5:
-c. Modulus ():
+c.modulus ():
 c.display Data ();
 break;
 
